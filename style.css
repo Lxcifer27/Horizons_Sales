@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+* {
+    font-family: Lato;
+}
+
+.skiptranslate.goog-te-gadget {
+    height: 28px;
+    overflow: hidden;
+}
+.nav-search {
+    position: relative;
+    left: -41px;
+}
+.dropdown-toggle.acc::after {display: none;}
+.carousel-content .slick-dots {
+    bottom: 0px;
+}
+.carousel-content .slick-dots li button:before,
+.carousel-content .slick-dots li.slick-active button:before {
+    color: #fff;
+    height: 30px;
+    width: 30px;
+}
+.carousel-products .card-img-overlay i {
+    cursor: pointer;
+}
+.carousel-products .card-img-overlay {
+    transition: linear 0.5s;
+    height: 70%;
+    cursor: grab;
+}
+.carousel-products .card-img-overlay:hover {
+    background-color: rgb(0, 0, 0, 0.70);
+    border-radius: 0px;
+}
+
+/* footer styles */
+footer {
+    padding-top: 1%;
+}
+
+footer .row {
+    padding-bottom: 5%;
+}
+
+.footer-div {
+    width: 33%;
+    padding: 1%;
+}
+
+.about-safira {
+    padding: 1%;
+}
+
+.about-safira p {
+    opacity: 0.8;
+}
+
+.newsletter {
+    padding: 2%;
+}
+
+.newsletter h4,
+.newsletter p {
+    opacity: 0.8;
+}
+
+.newsletter h4,
+.newsletter p,
+.newsletter-input {
+    margin: 3%;
+}
+
+.newsletter-input input[type=text] {
+    padding: 1.5%;
+    border: 1px solid grey;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    outline: none;
+}
+
+.newsletterbtn {
+    display: inline-block;
+    position: absolute;
+    padding: 0.5%;
+    font-size: 0.8rem;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.newsletterbtn:hover {
+    background-color: black;
+}
+
+.about-safira img,
+.about-safira p {
+    margin: 3%;
+}
+
+.page-list {
+    display: flex;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.page-list ul {
+    list-style-type: none;
+    width: 50%;
+    margin: 3%;
+}
+
+.page-list ul li {
+    margin: 5%;
+}
+
+.copyright {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1%;
+    background-color: black;
+}
+
+.copyright-text {
+    width: 50%;
+    padding: 1%;
+    padding-top: 2%;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.cards {
+    width: 50%;
+    padding-top: 1%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.cards img {
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+    cursor: pointer;
+}
+
+.safira:hover {
+    transition: color 1.2s ease-in-out;
+    color: red;
+    cursor: pointer;
+}
+
+.hover-red:hover {
+    transition: color 0.5s ease-in-out;
+    color: red;
+    cursor: pointer;
+}

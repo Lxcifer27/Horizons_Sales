@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Horizon Sales - J&K ODOP initiative</title>
+    <link rel="icon" type="image/x-icon" href="/favicon-w.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link href="/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary flex-lg-column py-lg-0">
+            <div class="container-fluid d-none d-lg-flex border-bottom border-dark px-4 nav-top">
+                <div class="col-6">
+                    <small class="navbar-text">
+                        A Jammu Kashmir Govt. ODOP Initiative
+                    </small>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center ">
+                    <i class="bi bi-exclamation-triangle pe-1"></i>
+                    <small>Help</small>
+
+                    <span class="px-1 fs-4 align-middle">|</span>
+
+                    <button class="fs-4 text-reset text-decoration-none align-middle btn p-0 shadow-none theme-toggle">
+                        <i class="bi bi-cloud-moon-fill dark-mode" title="Switch to Dark Mode"></i>
+                        <i class="bi bi-brightness-high light-mode" title="Switch to Light Mode"></i>
+                    </button>
+
+                    <span class="px-1 fs-4 align-middle">|</span>
+
+                    <i class="bi bi-translate px-1 pe-2" title="Translate Page"></i>
+                    <div id="google_translate_element" class="align-middle"></div>
+                </div>
+            </div>
+            <div class="container-fluid d-none d-lg-flex text-center p-2 border-bottom border-dark nav-mid">
+                <div class="col-2">
+                    <a class="navbar-brand" href="#">
+                        <img src="/logo.png" alt="Bootstrap" style="width: 200px" />
+                    </a>
+                </div>
+                <div class="col-8">
+                    <form class="d-flex" role="search">
+                        <input class="form-control rounded-0  border-success" type="search" placeholder="Search"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success rounded-0 nav-search border-start-0 border-success"
+                            type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="d-flex col-2 fs-4">
+                    <div class="col-4 position-relative">
+                        <a class="d-flex flex-lg-column nav-link dropdown-toggle acc" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person"></i>
+                            <small class="fs-6">Account</small>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex col-4 flex-lg-column">
+                        <i class="bi bi-heart-fill"></i>
+                        <small class="fs-6">Wishlist</small>
+                    </div>
+                    <div class="d-flex col-4 flex-lg-column">
+                        <i class="bi bi-cart3"></i>
+                        <small class="fs-6">Cart</small>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid nav-tabs">
+                <a class="navbar-brand d-block d-lg-none" href="#">
+                    <img src="/logo.png" alt="Bootstrap" style="width: 200px" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                How To
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Sell On Horizon</a></li>
+                                <li><a class="dropdown-item" href="#">Workshops</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Product Gallery
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Jammu-Based</a></li>
+                                <li><a class="dropdown-item" href="#">Kashmir-Based</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Best Of J&K</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ODOP Initiative</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex d-lg-none" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Slider -->
+    <section class="slider mb-0 pb-0">
+        <div class="container-fluid p-0 overflow-hidden">
+            <div class="row">
+                <div class="col-12">
+                    <div class="carousel-content">
+                        <img src="/slider-1.jpg" alt="" style="height: 100vh;">
+                        <img src="/slider-2.jpg" alt="" style="height: 100vh;">
+                        <img src="/slider-3.jpg" alt="" style="height: 100vh;">
+                        <img src="/slider-4.jpg" alt="" style="height: 100vh;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- home-about -->
+    <section class="home-about">
+        <div class="container overflow-hidden">
+            <div class="row">
+                <div class="col-12 m-auto text-center p-2">
+                    <img src="/logo.png" alt="Logo" style="width:100%;max-width:350px;" class="m-auto" />
+                    <div class="h5" data-aos="fade-up" data-aos-easing="linear" data-aos-offset="-700">
+                        "Discover the Heart of Jammu and Kashmir: Shop, Support, and Preserve."
+                    </div>
+                    <p class="fs-5 text-start py-2">
+                        "Welcome to our E-Marketplace, a proud supporter of the Government-led One District One Product
+                        (ODOP) initiative in Jammu and Kashmir. By connecting you with local artisans and entrepreneurs,
+                        our platform empowers small businesses, creates jobs, and preserves the region's rich cultural
+                        heritage. Your purchases here directly contribute to the local economy, making a global impact
+                        while experiencing the finest creations from Jammu and Kashmir. Join us in supporting our
+                        sellers and fostering economic growth in this culturally vibrant region."
+                        <a href="About Us.html" class="d-inline text-reset text-decoration-none small">
+                            <span class="text-decoration-underline">Read More</span>
+                            <i class="bi bi-chevron-double-right small"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Products -->
+    <section class="top-products">
+        <div class="container-fluid p-0 overflow-hidden">
+            <div class="text-start h1 p-4 ps-5">
+                <span class="border-bottom border-black border-3 ps-3">Top Products </span><span>on Horizon</span>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="row carousel-products">
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 align-items-stretch px-3 fs-6">
+                            <div class="card h-100">
+                                <img class="card-img" src="/Kashmiri Ferozi Chain Necklace.png"
+                                    alt="Kashmiri Ferozi Chain Necklace">
+                                <div class="card-img-overlay d-flex justify-content-end">
+                                    <a href="#" class="card-link text-danger like">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6">Kashmiri Ferozi Chain Necklace</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-between align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$12</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-3 align-items-stretch px-3 fs-6">
+                            <div class="card h-100">
+                                <img class="card-img" src="/kehwa-mongra.png"
+                                    alt="Koshur Kashmiri Kehwa Mix and Mongra Saffron Combo">
+                                <div class="card-img-overlay d-flex justify-content-end">
+                                    <a href="#" class="card-link text-danger like">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6">Kashmiri Kehwa Mongra Combo</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-between align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$20</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-3 align-items-stretch px-3 fs-6">
+                            <div class="card h-100">
+                                <img class="card-img" src="/Pearl White Flowered Embroidered Curtain.png"
+                                    alt="Pearl White Flowered Embroidered Curtain">
+                                <div class="card-img-overlay d-flex justify-content-end">
+                                    <a href="#" class="card-link text-danger like">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6">Pearl White Embroidery Curtain</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-between align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$6</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-3 align-items-stretch px-3 fs-6">
+                            <div class="card h-100">
+                                <img class="card-img" src="/Silk-jackets.png"
+                                    alt="Multicolor Floral Navy Blue Short Silk Jacket">
+                                <div class="card-img-overlay d-flex justify-content-end">
+                                    <a href="#" class="card-link text-danger like">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6">Multicolor Floral Silk Jacket</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-between align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$9</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-3 align-items-stretch px-3 fs-6">
+                            <div class="card h-100">
+                                <img class="card-img" src="/Kashmiri Saffron.png" alt="Kashmiri Saffron">
+                                <div class="card-img-overlay d-flex justify-content-end">
+                                    <a href="#" class="card-link text-danger like">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6">Kashmiri Pure Saffron</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-between align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$8</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-3 align-items-stretch px-3 fs-6">
+                            <div class="card h-100">
+                                <img class="card-img" src="/Walnut-wood-box.png" alt="Walnut Wood Rose Storage Box">
+                                <div class="card-img-overlay d-flex justify-content-end">
+                                    <a href="#" class="card-link text-danger like">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6">Walnut Wood Rose Storage Box</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-between align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$30</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jammu Specials -->
+    <section class="jammu-products">
+        <div class="text-center h1 p-4">
+            <span class="border-bottom border-black border-3 ps-3">Jammu Features </span><span>on Horizon</span>
+        </div>
+        <div class="container p-0 overflow-hidden">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap jammu-carousel">
+                    <div class="d-flex row jammu-products">
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Kashmiri Ferozi Chain Necklace.png"
+                                    alt="Kashmiri Ferozi Chain Necklace">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Ferozi Chain Necklace</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$12</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/kehwa-mongra.png"
+                                    alt="Koshur Kashmiri Kehwa Mix and Mongra Saffron Combo">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Kehwa Mongra Combo</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$20</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Pearl White Flowered Embroidered Curtain.png"
+                                    alt="Pearl White Flowered Embroidered Curtain">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Pearl White Embroidered Curtain</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$6</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Silk-jackets.png"
+                                    alt="Multicolor Floral Navy Blue Short Silk Jacket">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Multicolor Floral Silk Jacket</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$9</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Kashmiri Saffron.png" alt="Kashmiri Saffron">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Pure Saffron</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$8</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Walnut-wood-box.png" alt="Walnut Wood Rose Storage Box">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Walnut Wood Rose Storage Box</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$30</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex  row jammu-products">
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Kashmiri Ferozi Chain Necklace.png"
+                                    alt="Kashmiri Ferozi Chain Necklace">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Ferozi Chain Necklace</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$12</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/kehwa-mongra.png"
+                                    alt="Koshur Kashmiri Kehwa Mix and Mongra Saffron Combo">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Kehwa Mongra Combo</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$20</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Pearl White Flowered Embroidered Curtain.png"
+                                    alt="Pearl White Flowered Embroidered Curtain">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Pearl White Embroidered Curtain</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$6</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Silk-jackets.png"
+                                    alt="Multicolor Floral Navy Blue Short Silk Jacket">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Multicolor Floral Silk Jacket</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$9</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Kashmiri Saffron.png" alt="Kashmiri Saffron">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Pure Saffron</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$8</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="d-flex flex-lg-row object-fit-contain w-auto p-2">
+                                <img class="card-img w-25 pe-3" src="/Walnut-wood-box.png" alt="Walnut Wood Rose Storage Box">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Walnut Wood Rose Storage Box</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$30</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kashmir Specials -->
+    <section class="kashmir-products">
+        <div class="text-center h1 p-4">
+            <span class="border-bottom border-black border-3 ps-3">kashmir Features </span><span>on Horizon</span>
+        </div>
+        <div class="container p-0 overflow-hidden">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap kashmir-carousel">
+                    <div class="d-flex row kashmir-products">
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Kashmiri Ferozi Chain Necklace.png"
+                                    alt="Kashmiri Ferozi Chain Necklace">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Ferozi Chain Necklace</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$12</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/kehwa-mongra.png"
+                                    alt="Koshur Kashmiri Kehwa Mix and Mongra Saffron Combo">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Kehwa Mongra Combo</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$20</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Pearl White Flowered Embroidered Curtain.png"
+                                    alt="Pearl White Flowered Embroidered Curtain">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Pearl White Embroidered Curtain</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$6</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Silk-jackets.png"
+                                    alt="Multicolor Floral Navy Blue Short Silk Jacket">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Multicolor Floral Silk Jacket</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$9</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Kashmiri Saffron.png" alt="Kashmiri Saffron">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Pure Saffron</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$8</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Walnut-wood-box.png" alt="Walnut Wood Rose Storage Box">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Walnut Wood Rose Storage Box</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$30</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex  row kashmir-products">
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Kashmiri Ferozi Chain Necklace.png"
+                                    alt="Kashmiri Ferozi Chain Necklace">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Ferozi Chain Necklace</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$12</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/kehwa-mongra.png"
+                                    alt="Koshur Kashmiri Kehwa Mix and Mongra Saffron Combo">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Kehwa Mongra Combo</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$20</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Pearl White Flowered Embroidered Curtain.png"
+                                    alt="Pearl White Flowered Embroidered Curtain">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Pearl White Embroidered Curtain</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$6</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Silk-jackets.png"
+                                    alt="Multicolor Floral Navy Blue Short Silk Jacket">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Multicolor Floral Silk Jacket</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$9</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Kashmiri Saffron.png" alt="Kashmiri Saffron">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Kashmiri Pure Saffron</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$8</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-8 col-md-6 col-lg-4 h-50 p-5 align-items-stretch px-3 fs-6">
+                            <div class="card h-50 w-50 text-center m-auto">
+                                <img class="card-img" src="/Walnut-wood-box.png" alt="Walnut Wood Rose Storage Box">
+                                <div class="card-body">
+                                    <h4 class="card-title fs-6 text-start ps-1">Walnut Wood Rose Storage Box</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted text-start ps-1">Seller: Lorem Ipsum</h6>
+                                    <div class="buy d-flex justify-content-evenly align-items-center">
+                                        <div class="price text-success">
+                                            <h5 class="mt-4">$30</h5>
+                                        </div>
+                                        <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add
+                                            to
+                                            Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid p-0 overflow-hidden">
+        <div class="row">
+            <div class="footer-div about-safira">
+                <img src="logo.png" alt="">
+                <p>A Jammu Kashmir Govt. ODOP Initiative</p>
+                <p><strong>Email: </strong><span class="hover-red">abc@xyz.com</span></p>
+                <p><strong>Call us: </strong><span class="hover-red">(123) 456 789</span></p>
+            </div>
+            <div class="footer-div page-list">
+                <ul>
+                    <li><h4>Information</h4></li>
+                    <li><span class="hover-red">About Us</span></li>
+                    <li><span class="hover-red">Delivery Information</span></li>
+                    <li><span class="hover-red">Privacy Policy</span></li>
+                    <li><span class="hover-red">Terms &amp; Condition</span></li>
+                    <li><span class="hover-red">Contact Us</span></li>
+                    <li><span class="hover-red">Site Map</span></li>
+                </ul>
+                <ul>
+                    <li><h4>Extras</h4></li>
+                    <li><span class="hover-red">Brands</span></li>
+                    <li><span class="hover-red">Gift Certificates</span></li>
+                    <li><span class="hover-red">Affiliate</span></li>
+                    <li><span class="hover-red">Specials</span></li>
+                    <li><span class="hover-red">Returns</span></li>
+                    <li><span class="hover-red">Order History</span></li>
+                </ul>
+            </div>
+            <div class="footer-div newsletter">
+                <h4>Sign Up Newsletter</h4>
+                <p>Get updates by subscribe our weekly newsletter</p>
+                <div class="newsletter-input">
+                    <input type="text" placeholder="Enter Your Email">
+                    <div class="newsletterbtn">Subscribe</div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright-text">
+                <h6>Copyright © 2021 <span class="safira">Safira</span> . All Rights Reserved.Design By <span class="safira">Heritage Horizons</span></h6>
+            </div>
+            <div class="cards">
+                <img src="paypal1.jpeg" alt="">
+                <img src="paypal2.jpeg" alt="">
+                <img src="paypal3.jpeg" alt="">
+                <img src="paypal4.jpeg" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+    </script>
+
+    <script>
+        // slick slider js init
+        $(document).ready(function () {
+            $(".carousel-content").slick({
+                Infinite: !0,
+                dots: !0,
+                adaptiveheight: !0,
+                arrows: !1,
+                autoplay: !0,
+            });
+        });
+        $('.carousel-products').slick({
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        $('.jammu-carousel, .kashmir-carousel').slick({
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+
+        // sticky nav 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.nav-tabs').addClass('sticky')
+            } else {
+                $('.nav-tabs').removeClass('sticky')
+            }
+        });
+    </script>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
